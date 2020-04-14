@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Rodrigo Rosas Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <script src="https://kit.fontawesome.com/265f015767.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--
+    -This header section contains the navigation and the main image/header
+    -Navigation based on bootstrap framework
+    -Responsive
+  -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-braille" style="color:white"></i> 
+         Rodrigo Rosas Valdes
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse navbar-text" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link active" href="portfolio.html">Portfolio</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+         </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="box-padding-md grey-bg">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-12">
+            <div class="media">
+              <img class="align-self-center mr-3" src="Assets/Images/Rodrigo.jpg" alt="Generic placeholder image" width="150px">
+              <div class="media-body">
+                <h1 class="mt-0 display-2">Rodrigo Rosas Valdes</h1>
+                <p class="mt-0 lead ">SCRUM Master | Project Manager | Business Analyst | Learning to Code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--This section displays the main content of the page
+      Responsive cards
+-->
+  <div class="container" style="margin-bottom:100px;">
+    <div class="row marginport" id="pmanage">
+      <h2>Project Management</h2>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/newvolaris.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">New Gen Volaris.com</h5>
+            <p class="card-text">  
+              <ul>
+                <li>Microservices based app</li>
+                <li>Angular</li>
+                <li>Progressive web app</li>
+                <li>Rest APIs</li>
+                <li>Devops</li>
+              </ul>
+              <div class="text-center disabled">
+                <a href="https://www.volaris.com/" target="_blank" class="btn btn-outline-dark" role="button">Coming soon</a>
+             </div>   
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/currentvolaris.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Volaris.com</h5>
+            <p class="card-text">
+              <ul>
+                <li>MVC Application</li>
+                <li>Responsive first</li>
+                <li>Episerver CMS</li>
+                <li>Dockers</li>
+                <li>Devops</li>
+              </ul>
+            </p>
+            <div class="text-center">
+              <a href="https://www.volaris.com/" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
+           </div> 
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/mytrips.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Volaris Manage my Booking</h5>
+            <p class="card-text">
+              <ul>
+                <li>MVC Application</li>
+                <li>Responsive first</li>
+                <li>Episerver CMS</li>
+                <li>SOAP APIs</li>
+              </ul>
+            </p>
+            <div class="text-center">
+              <a href="https://mytrips.volaris.com/" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row marginport" id="consulting">
+      <h2>Business Analysis and Consulting</h2>
+      <div class="card-deck" >
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/mobileapp.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Volaris Mobile Apps</h5>
+            <p class="card-text">Connect TML base application with Volaris systems.</p>
+            <div class="text-center">
+              <a href="https://play.google.com/store/apps/details?id=com.volaris.android" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
+           </div> 
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/vpass.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">V.Pass Subscriptions</h5>
+            <p class="card-text">Designed the first airline tickets subscription together with Caravelo. We connected Volaris systems to Vpass.</p>
+            <div class="text-center">
+              <a href="https://vpass.volaris.com/y4/subscriptions" target="_blank" class="btn btn-outline-dark" role="button" alt="Vpass homepage">See more</a>
+           </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/vane.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vane Chatbot Volaris</h5>
+            <p class="card-text">Connected Facebook Messenger with Volaris environment, added multiple functionality for the customer to book a flight, add extra services and do check-in</p>
+            <div class="text-center">
+              <a href="https://www.messenger.com/t/viajavolaris" target="_blank" class="btn btn-outline-dark" role="button" alt="Vane Messenger">See more</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row marginport" id="development">
+      <h2>Development</h2>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/rps.jpg" alt="Rock, Paper, Scissors">
+          <div class="card-body">
+            <h5 class="card-title">Rock, Scissors, Paper Game</h5>
+            <p class="card-text">Play Rock, Paper, Scissors against the computer, you will have fun.</p>
+            <div class="text-center">
+              <a href="https://rodrigorosasv.github.io/rockpaperscissorsgame/rockpaperscissors.html" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
+           </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/horiseon.png" alt="Horiseon">
+          <div class="card-body">
+            <h5 class="card-title">Horiseon Webpage</h5>
+            <p class="card-text">Added semantyc tags, improved the code.</p>
+            <div class="text-center">
+              <a href="https://rodrigorosasv.github.io/horizeon_homework/" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
+           </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/rocko.jpg" alt="Rocko">
+          <div class="card-body">
+            <h5 class="card-title">Random Page</h5>
+            <p class="card-text">This is just an exercise</p>
+            <div class="text-center">
+              <a href="https://rodrigorosasv.github.io/rocko/" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--This is a fixed bottom footer, reused the nav style-->
+  <footer>
+      <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom">
+         <div class="navbar-text mx-auto">
+           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Social Media<span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link disabled" href="#">Copyright</a>
+             </li>
+           </ul>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
