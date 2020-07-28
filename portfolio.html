@@ -30,11 +30,11 @@
       </button>
        <div class="collapse navbar-collapse navbar-text" id="navbarSupportedContent">
          <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
            </li>
            <li class="nav-item">
-             <a class="nav-link active" href="portfolio.html">Portfolio</a>
+             <a class="nav-link" href="portfolio.html">Portfolio</a>
            </li>
            <li class="nav-item">
              <a class="nav-link" href="contact.html">Contact Me</a>
@@ -42,40 +42,40 @@
          </ul>
       </div>
     </nav>
-    <div class="box-padding-md grey-bg">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <div class="row" style="margin-top: 50px;">
-            <div class="col-12">
-              <div class="media">
-                <div>
-                  <img class="align-self-center mr-3 imagew" src="Assets/Images/Rodrigo.jpg" alt="Rodrigo Rosas Valdes">
-                </div>
-                <div class="media-body">
-                  <h1 class="mt-0 display-3">Rodrigo Rosas Valdes</h1>
-                  <p class="mt-0 lead ">SCRUM Master | Project Manager | Business Analyst | Learning to Code</p>
-                  <div class="media-body">
-                    Social Media: 
-                    <a href="https://github.com/rodrigorosasv" target="_blank" class="links">Github <i class="fab fa-github"></i> | </a>
-                    <a href="https://www.linkedin.com/in/rodrigo-rosas-valdes/" target="_blank" class="links">Linkedin <i class="fab fa-linkedin"></i> | </a>
-                    <a href="./Assets/RRV_CV.pdf" target="_blank" class="links">CV <i class="fas fa-address-card"></i></a>
-                  </div>
-                  <div class="media-body">
-                    Contact: 
-                    <a href="tel:+5215518342226" target="_blank" class="links">+52 1 5518342226 <i class="fas fa-phone-square-alt"></i> | </a>
-                    <a href="mailto:rodrigo.rosasv@gmail.com" target="_blank" class="links">rodrigo.rosasv@gmail.com <i class="fas fa-envelope-square"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</header>
+  </header>
  <!--This section displays the main content of the page
       Responsive cards
 -->
+  <!--This section displays the main image-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row justify-content-md-center" style="padding-top:25px;">
+        <div class="col-md-3">
+          <div>
+            <img class="align-self-center mr-3 imagew" src="Assets/Images/Rodrigo.jpg" alt="Rodrigo Rosas Valdes">
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div>
+            <h1 class="display-4">Rodrigo Rosas Valdes</h1>
+            <p class="lead">SCRUM Master | Project Manager | Business Analyst | Learning to Code</p>
+          </div>
+          <div class="">
+            Social Media: 
+            <a href="https://github.com/rodrigorosasv" target="_blank" class="links"><i class="fab fa-github"></i> Github  | </a>
+            <a href="https://www.linkedin.com/in/rodrigo-rosas-valdes/" target="_blank" class="links"><i class="fab fa-linkedin"></i> Linkedin  | </a>
+            <a href="./Assets/RRV_CV.pdf" target="_blank" class="links"><i class="fas fa-address-card"></i> CV </a>
+          </div>
+          <div class="media-body">
+            Contact: 
+            <a href="tel:+5215518342226" target="_blank" class="links"><i class="fas fa-phone-square-alt"></i> +52 1 5518342226  | </a>
+            <a href="mailto:rodrigo.rosasv@gmail.com" target="_blank" class="links"><i class="fas fa-envelope-square"></i> rodrigo.rosasv@gmail.com </a>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container" style="margin-bottom:100px;">
     <div class="row marginport" id="development">
       <h2>Development</h2>
@@ -87,7 +87,18 @@
             <p class="card-text">A fun page to learn how to prepare different drinks. Responsive design and fun way to follow recipees.</p>
             <p class="card-text"><a href="https://github.com/raul-ae/project-1.git" class="links" target="_blank">Github Project Link</a></p>
             <div class="text-center">
-              <a href="https://raul-ae.github.io/project-1/" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
+              <a href="https://raul-ae.github.io/project-1/" target="_blank" class="btn btn-outline-dark" role="button">Go to the page</a>
+           </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Assets/Images/handshake.png" alt="handshake">
+          <div class="card-body">
+            <h5 class="card-title">Handshake Community App</h5>
+            <p class="card-text">A Fullstack app to know about services around your area. Help your community promoting services around you.</p>
+            <p class="card-text"><a href="https://github.com/BrockBatBlue/Project_2" class="links" target="_blank">Github Project Link</a></p>
+            <div class="text-center">
+              <a href="https://handshake-service-app.herokuapp.com/" target="_blank" class="btn btn-outline-dark" role="button">Go to the page</a>
            </div>
           </div>
         </div>
@@ -103,11 +114,11 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="Assets/Images/dayplanner.png" alt="dayplanner">
+          <img class="card-img-top" src="Assets/Images/noteTaker.png" alt="noteTaker">
           <div class="card-body">
-            <h5 class="card-title">Day Planner</h5>
-            <p class="card-text">Plan your daily activities</p>
-            <p class="card-text"><a href="https://github.com/rodrigorosasv/dayplanner.git" class="links" target="_blank">Github Project Link</a></p>
+            <h5 class="card-title">Note taker</h5>
+            <p class="card-text">An application to take notes, add, modify and delete</p>
+            <p class="card-text"><a href=" https://github.com/rodrigorosasv/noteTaker.git" class="links" target="_blank">Github Project Link</a></p>
             <div class="text-center">
               <a href="https://rodrigorosasv.github.io/dayplanner/" target="_blank" class="btn btn-outline-dark" role="button">See more</a>
            </div>
